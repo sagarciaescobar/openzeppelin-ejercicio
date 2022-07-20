@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.4.22 <0.9.0;
 
-import "../node_modules/@openzeppelin/contracts/access/AccessControl.sol";
+import "@openzeppelin/contracts/access/AccessControl.sol";
 
 contract OwnerContract is AccessControl {
   bytes32 public constant ROLE_ADMIN = keccak256("ROLE_ADMIN");

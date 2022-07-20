@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.0"
-  }
+  },
+  "name": "contract-1",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
